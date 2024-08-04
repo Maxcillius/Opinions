@@ -1,0 +1,42 @@
+{
+  "name": "something",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.621.0",
+    "@aws-sdk/s3-request-presigner": "^3.622.0",
+    "@next-auth/prisma-adapter": "^1.0.7",
+    "@prisma/client": "^5.17.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@types/multer": "^1.4.11",
+    "axios": "^1.7.2",
+    "buffer": "^6.0.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "multer": "^1.4.5-lts.1",
+    "next": "14.2.5",
+    "next-auth": "^4.24.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "stream-to-string": "^1.2.1",
+    "tailwind-merge": "^2.4.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "prisma": "^5.17.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
